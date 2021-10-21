@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="stylesheet" href="style.css">
+  <title>Colleen Portfolio</title>
+</head>
+<body>
+
+  <header class="hero" id="top">
+
+    <div class="mobile-nav-bar">
+      <h4 class="link"><a href="#portfolio">Portfolio</a></h4>
+      <h4 class="link"><a href="#about">About</a></h4>
+      <h4 class="link"><a href="#contact">Contact</a></h4>
+
+    </div>
+
+    <nav>
+      <h1 class="logo">COLLEEN BOEHME</h1>
+  
+      <div class="sidebar-menu">
+        <button id="menu"  onclick="showMenu()"class="btn btn-menu">Menu</button>
+        <div class="sidebar-wrapper">
+          <div id="sidebar"  class="sidebar">
+            <div class="close-btn-wrapper">
+              <div id="close-btn" onclick="hideMenu()" class="close-btn">X</div>  
+            </div>
+            
+            <div class="links">
+              <div class="links-container">
+
+                <h1 class="link"><a href="#portfolio">Portfolio</a></h1>
+               <h1 class="link"><a href="#about">About</a></h1>
+               <h1 class="link"><a href="#contact">Contact</a></h1>
+
+              </div>
+               
+              </div>
+           </div>
+        </div>
+        </div>
+      </nav>
+    <div class="content" id="content">
+    <h1>Front-End
+      <span class="txt-type" data-wait="1000" data-words='["Designer", "Creator", "Developer."]'></span>
+    </h1>
+      <h2>Welcome to my Portfolio</h2>
+
+   </div>
+  </header>
+
+
+<section id="skills" class="skills">
+
+
+  <h1 id="title">Skills</h1>
+
+<div class="skills-wrapper">
+<div class="skills-container">
+
+
+
+  <div class="skills-box">
+    <div class="skill-icon">
+      <img src="images/css.svg" width="50px" alt="">
+    </div>
+    <div class="skills-text">
+      <h4>HTML/CSS</h4>
+      <p>Semantic HTML5. CSS3. Flexbox/Grid. Media Queries. Keyframes/Animations. BootStrap. Bulma</p>
+    </div>
+</div>
+
+  
+
+
+
+
+  <div class="skills-box">
+    <div class="skill-icon">
+      <img src="images/javascript.svg" width="50px" alt="">
+    </div>
+    <div class="skills-text">
+      <h4>Javascript</h4>
+      <p>DOM manipulation. Looping and Arrays. ES6 syntax. Asynchronous Programming. API calls.</p>
+    </div>
+</div>
+
+
+  <div class="skills-box">
+    <div class="skill-icon-react">
+      <img src="images/react2.svg" width="60px" alt="">
+   </div>
+   <div class="skills-text">
+    <h4>React</h4>
+    <p>Functional and Class Components. React Hooks: useState, useEffect,useReducer, useRef. React Router. Context API.</p>
+  </div>
+    
+  </div>
+</div>
+</div>
+</section>
+
+
+<section class="portfolio" id="portfolio">
+
+  <h1 id="title">Portfolio</h1>
+
+
+ <div class="portfolio-wrapper">
+  <div class="portfolio-container">
+
+
+    <div class="card-container">
+      <div class="portfolio-card">
+      <div class="card-front one">
+        <h2>Business Site</h2>
+        <div class='port-img'>
+          <img src="images/city.svg" width="100px" alt="">
+        </div>
+      </div>
+      <div class="card-back">
+
+        <a href="https://lizzy596.github.io/business-site/" target="_blank"><button class="btn btn-portfolio">Visit Site</button></a>
+      <h4>HTMl5/CSS</h4>
+      <h4>Responsive Design</h4>
+      <h4>Lightbox 2</h4>
+      
+      </div>
+   </div>
+  </div>
+
+
+  <div class="card-container">
+
+
+
+    <div class="portfolio-card">
+    <div class="card-front two">
+      <h2>Memory Game</h2>
+      <div class='port-img'>
+        <img src="images/dino.svg" width="100px" alt="">
+      </div>
+    </div>
+    <div class="card-back">
+      <a href="https://lizzy596.github.io/memory-game/" target="_blank"><button class="btn btn-portfolio">Visit Site</button></a>
+      <h4>HTMl5/CSS</h4>
+      <h4>React Class Components</h4>
+      <h4>useState, useEffect</h4>
+    </div>
+ </div>
+</div>
+
+
+<div class="card-container">
+  <div class="portfolio-card">
+  <div class="card-front three">
+    <h2>Weather App</h2>
+    <div class='port-img'>
+      <img src="images/weather1.svg" width="100px" alt="">
+    </div>
+  </div>
+  <div class="card-back">
+    <a href="https://lizzy596.github.io/Weather-App2/" target="_blank"><button class="btn btn-portfolio">Visit Site</button></a>
+    <h4>HTMl5/CSS/JS</h4>
+    <h4>Async JS</h4>
+    <h4>API Calls</h4>
+  </div>
+</div>
+</div>
+
+<div class="card-container">
+  <div class="portfolio-card">
+  <div class="card-front four">
+    <h2>Task Tracker</h2>
+    <div class='port-img'>
+      <img src="images/timer.svg" width="100px" alt="">
+    </div>
+  </div>
+  <div class="card-back">
+    <a href="https://lizzy596.github.io/task-manager/" target="_blank"><button class="btn btn-portfolio">Visit Site</button></a>
+    <h5>HTMl5/CSS/React</h5>
+    <h5>Functional Components</h5>
+    <h5>useState, useEffect</h5>
+    <h5>Local Storage</h5>
+  </div>
+</div>
+</div>
+
+<div class="card-container">
+  <div class="portfolio-card">
+  <div class="card-front five">
+    <h2>Shopping Cart</h2>
+    <div class='port-img'>
+      <img src="images/shopping.svg" width="100px" alt="">
+    </div>
+   
+  </div>
+  <div class="card-back">
+    <a href="https://lizzy596.github.io/shopping-cart/" target="_blank"><button class="btn btn-portfolio">Visit Site</button></a>
+    <h4>HTMl5/CSS/React</h4>
+    <h4>React Router</h4>
+    <h4>useState, useEffect</h4>
+ 
+  </div>
+</div>
+</div>
+
+<div class="card-container">
+  <div class="portfolio-card">
+  <div class="card-front six">
+    <h2>CV Generator</h2>
+    <div class='port-img'>
+      <img src="images/resume.svg" width="100px" alt="">
+    </div>
+  </div>
+  <div class="card-back">
+    <a href="https://lizzy596.github.io/Resume-Generator/" target="_blank"><button class="btn btn-portfolio">Visit Site</button></a>
+    <h4>HTMl5/CSS/React</h4>
+    <h4>Class and Functional Components</h4>
+    <h4>useState, useEffect</h4>
+  </div>
+</div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+</section>
+
+
+<section class="about" id="about">
+
+  <h1 id="title">About</h1>
+
+  <p>Hi! I'm a self-taught web-developer with a focus on front-end developement. I've taken formal courses in HTML,CSS, Javascript, Responsive Design, Adobe Photoshop, UX/UI and E-commerce via Austin CC's Web Developer Program. I've also been working steadily through the online bootcamp The Odin Project through which I have learned: Git, Github, Linting, Test-Driven Development using Jest, ES6 Modules, WebPack, API Calls and React.  I am very comfortable building apps in HTML/CSS, Vanilla JS and React.</p>
+
+  <p>In another life, I was in the medical field and have a B.S. in Economics. I have enjoyed making this career change as I find the field of web-development rewarding, creative, collaborative and with seemingly endless new things to learn. I look forward to working with you on your next project!</p>
+
+</section>
+
+<section class="contact" id="contact">
+
+
+  <h1 id="title">Contact</h1>
+
+ <div class="form-wrapper">
+
+  <form name="contact" method="POST" data-netlify="true">
+    <div class="form-control">
+      <input type="text" name="name" placeholder="NAME">
+      <input type="email" name="email"placeholder="EMAIL">
+      <input type="text" name="phone" placeholder="PHONE">
+      <textarea name="message" placeholder="MESSAGE" rows="10" cols="50"></textarea>
+      <div class="field">
+        <input type="file" name="myfile" id="myfile" placeholder="Upload File" rows="7">
+      </div>
+
+      <div class="field">
+        <div data-netlify-recaptcha="true"></div>
+      </div>
+      
+      <input type="submit" value="Submit">
+      
+    </div>
+
+  </form>
+
+
+
+
+ </div>
+
+
+
+</section>
+
+
+<footer>
+  <h3><a href="#top">Return to Top</a></h3>
+</footer>
+
+
+
+
+
+
+
+
+
+  
+  <script src="index.js"></script>
+</body>
+</html>
