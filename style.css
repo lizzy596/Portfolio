@@ -607,6 +607,7 @@ footer h3:hover {
       rgba(226, 241, 231, 1) 62%
     );
     box-shadow: 0;
+    height: 1000px;
   }
 
   .form-control {
