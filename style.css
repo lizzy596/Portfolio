@@ -563,6 +563,7 @@ footer h3:hover {
     margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr;
+    row-gap: 3em;
 
     align-content: center;
     justify-content: center;
