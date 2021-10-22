@@ -521,7 +521,116 @@ footer h3:hover {
 }
 
 /* Mobile */
-@media only screen and (max-width: 800px) {
+@media (max-width: 768px) {
+  nav {
+    display: none;
+  }
+
+  .mobile-nav-bar {
+    display: flex;
+  }
+
+  .hero {
+    height: auto;
+  }
+
+  #content {
+    display: none;
+  }
+
+  #title {
+    text-align: left;
+    margin-left: 30px;
+    border-left: 1px black solid;
+    padding: 10px;
+  }
+
+  .skills {
+    margin: 30px 0;
+  }
+
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .skills-box {
+    width: 100%;
+  }
+
+  .portfolio {
+    margin-top: 50px;
+  }
+
+  .card-wrapper {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 3em;
+
+    align-content: center;
+    justify-content: center;
+  }
+
+  .about {
+    margin-top: 50px;
+  }
+
+  .about p {
+    line-height: 1.2;
+    margin: 20px 30px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .contact {
+    margin-top: 60px;
+  }
+
+  .form-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  form {
+    width: 100%;
+    margin: 10px 20px;
+    background: rgb(162, 179, 168);
+    background: linear-gradient(
+      90deg,
+      rgba(162, 179, 168, 1) 23%,
+      rgba(162, 179, 168, 1) 38%,
+      rgba(226, 241, 231, 1) 62%
+    );
+    box-shadow: 0;
+    height: 1100px;
+  }
+
+  .form-control {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 50px;
+    align-items: center;
+  }
+
+  textarea {
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 5px;
+    margin: 30px 0;
+
+    resize: none;
+    overflow: auto;
+    width: 350px;
+    height: 450px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   nav {
     display: none;
   }
