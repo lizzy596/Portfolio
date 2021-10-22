@@ -559,7 +559,7 @@ footer h3:hover {
     margin-top: 50px;
   }
 
-  .portfolio-container {
+  .card-wrapper {
     margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr;
