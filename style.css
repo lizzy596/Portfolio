@@ -308,6 +308,10 @@ section {
   border-radius: 5px;
 }
 
+.card__front {
+  -webkit-transform: rotateY(0deg);
+}
+
 .card__front h2 {
   margin-top: 30px;
   letter-spacing: 3px;
